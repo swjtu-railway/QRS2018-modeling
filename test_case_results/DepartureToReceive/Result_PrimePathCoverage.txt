@@ -1,0 +1,17 @@
+2018-03-08 00:15:45--------
+Model: C:\Users\allenwong\Desktop\Working Apps\TCCDepartureToReceive.uml
+Coverage Criteria: Prime-Path Coverage
+total paths: 11
+Test Paths: 
+Path 1: Initial1---null--->Departure---null--->DepartConf---null--->ReceFailed---null--->FinalState1
+Path 2: Initial1---null--->Departure---null--->AuxDepartConf---null--->Drive---null--->ReceFailed---null--->FinalState1
+Path 3: Initial1---null--->Departure---null--->DepartConf---null--->Drive---null--->ReceFailed---null--->FinalState1
+Path 4: Initial1---null--->Departure---null--->DepartConf---null--->Drive---null--->ChangeRecv---null--->ReceFailed---null--->FinalState1
+Path 5: Initial1---null--->Departure---null--->AuxDepartConf---null--->Drive---null--->ChangeRecv---null--->ReceFailed---null--->FinalState1
+Path 6: Initial1---null--->Departure---null--->DepartConf---null--->Drive---null--->ChangeRecv---null--->ChangeRecv_1---null--->ReceFailed---null--->FinalState1
+Path 7: Initial1---null--->Departure---null--->DepartConf---null--->Drive---null--->ChangeRecv---null--->DepartOver---null--->ReceFailed---null--->FinalState1
+Path 8: Initial1---null--->Departure---null--->DepartConf---null--->Drive---null--->ChangeRecv---null--->DepartOver---null--->Receive---null--->FinalState1
+Path 9: Initial1---null--->Departure---null--->AuxDepartConf---null--->Drive---null--->ChangeRecv---null--->DepartOver---null--->Receive---null--->FinalState1
+Path 10: Initial1---null--->Departure---null--->AuxDepartConf---null--->Drive---null--->ChangeRecv---null--->ChangeRecv_1---null--->ReceFailed---null--->FinalState1
+Path 11: Initial1---null--->Departure---null--->AuxDepartConf---null--->Drive---null--->ChangeRecv---null--->DepartOver---null--->ReceFailed---null--->FinalState1
+---------------

@@ -1,0 +1,8 @@
+2018-03-12 18:48:54--------
+Model: C:\Users\allenwong\Desktop\Working Apps\TCCReceiveToDepart_Origin.uml
+Coverage Criteria: Edge-Pair Coverage
+total paths: 2
+Test Paths: 
+Path 1: Initial1---null--->Receive---null--->AuxRecvConf---null--->Wait---null--->ChangeDepart---null--->AuxChangeSucc---null--->Departure---null--->End
+Path 2: Initial1---null--->Receive---null--->RecvConf---null--->Wait---null--->ChangeDepart---null--->NorChangeSucc---null--->Departure---null--->End
+---------------

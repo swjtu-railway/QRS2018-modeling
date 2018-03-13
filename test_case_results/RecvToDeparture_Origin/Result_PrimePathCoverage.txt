@@ -1,0 +1,10 @@
+2018-03-12 18:49:15--------
+Model: C:\Users\allenwong\Desktop\Working Apps\TCCReceiveToDepart_Origin.uml
+Coverage Criteria: Prime-Path Coverage
+total paths: 4
+Test Paths: 
+Path 1: Start------>Receive------>RecvConf------>Wait------>ChangeDepart------>NorChangeSucc------>Departure------>End
+(infeasable path) Path 2: Start------>Receive------>RecvConf------>Wait------>ChangeDepart------>AuxChangeSucc------>Departure------>End
+Path 3: Start------>Receive------>AuxRecvConf------>Wait------>ChangeDepart------>AuxChangeSucc------>Departure------>End
+(infeasable path) Path 4: Start------>Receive------>AuxRecvConf------>Wait------>ChangeDepart------>NorChangeSucc------>Departure------>End
+---------------

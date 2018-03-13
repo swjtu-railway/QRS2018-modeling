@@ -1,0 +1,14 @@
+2018-03-07 23:41:54--------
+Model: C:\Users\allenwong\Desktop\Working Apps\TCCDirectionChange.uml
+Coverage Criteria: Node Coverage
+total paths: 8
+Test Paths: 
+Path 1: Initial1---null--->Receive---null--->AucCheck_1---null--->Success---null--->End1
+Path 2: Initial1---null--->Receive---null--->AucCheck_1---null--->Failed---null--->End1
+Path 3: Initial1---null--->Receive---null--->RecvConf---null--->Wait---null--->ChangeDepart---null--->ChangeSucc---null--->RecvOver---null--->Departure---null--->End1
+Path 4: Initial1---null--->Receive---null--->Check---null--->Success---null--->End1
+Path 5: Initial1---null--->Receive---null--->RecvConf---null--->Wait---null--->ChangeDepart---null--->DepartFailed---null--->End1
+Path 6: Initial1---null--->Receive---null--->AuxRecvConf---null--->Wait_1---null--->ChangeDepart_1---null--->DepartFailed_1---null--->End1
+Path 7: Initial1---null--->Receive---null--->Check---null--->Failed---null--->End1
+Path 8: Initial1---null--->Receive---null--->AuxRecvConf---null--->Wait_1---null--->ChangeDepart_1---null--->ChangeSucc_1---null--->RecvOver---null--->Departure---null--->End1
+---------------
