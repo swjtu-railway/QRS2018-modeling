@@ -1,0 +1,13 @@
+
+P1. E<>  ((ATCC.DepartConf) or (ATCC.Drive) or (ATCC. ChangeRecv) or (ATCC. Receive) or(BTCC.DepartConf) or (BTCC.Drive) or (BTCC. ChangeRecv) or (BTCC. Receive))
+P1. E<> ((ATCC.RecvConf) or (ATCC.Wait) or (ATCC. ChangeDepart) or (ATCC.Departure) or(BTCC.RecvConf) or (BTCC.Wait) or (BTCC. ChangeDepart) or (BTCC.Departure))
+P2. E<> (((ATCC.Receive) and (ACBI.RouteLock)) imply (((ASec_Clr==false) or (BSec_Clr==false))and (A_AllowCBI==false) and (ARouteStatus==0)))
+P3. E<> ACBI.SigOpen imply (ATCC.Departure and A_AllowCBI==1)
+P4. E<> (((BTCC.DepartConf) imply (ATCC.Wait)) and ((BTCC.DepartConf) imply (B_JQJStatus==true)))
+P4. E<> (((ATCC.ChangeDepart) imply (BTCC. Receive)) and ((ATCC.ChangeDepart) imply (A_FJDrive==0)))
+P5. E<>(((ATCC.Receive) and (ACBI.RouteLock)) imply ((BCBI_Lock==true) and (A_AllowCBI==false) and (ARouteStatus==0)))
+P6. A[] not deadlock
+P7. E<> (((ATCC.RecvConf) imply (ACBI.RouteLock)) and ((ATCC.RecvConf) imply (A_JQJStatus==1)))
+P8. A[] (ATCC.ChangeSucc imply AFJClk<=13)
+
+P1-P8 get passed except for P6 hrough validation
