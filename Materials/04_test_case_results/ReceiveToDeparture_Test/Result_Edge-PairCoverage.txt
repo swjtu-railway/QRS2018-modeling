@@ -3,16 +3,16 @@ Model: Test_Model.xml
 Coverage Criteria: Edge-Pair Coverage
 total paths: 12
 Test Paths: 
-Path 1: Initial1---null--->Receive---null--->RecvConf---null--->Wait---null--->ChangeDepart---null--->ChangeSucc---null--->RecvOver---null--->Departure---null--->End1
-Path 2: Initial1---null--->Receive---null--->AuxRecvConf---null--->Wait_1---null--->ChangeDepart_1---null--->ChangeSucc_1---null--->RecvOver---null--->Departure---null--->End1
-Path 3: Initial1---null--->Receive---null--->AucCheck_1---null--->Success---null--->End1
-Path 4: Initial1---null--->Receive---null--->AuxRecvConf---null--->Wait_1---null--->DepartFailed_1---null--->End1
-Path 5: Initial1---null--->Receive---null--->Check---null--->Failed---null--->End1
-Path 6: Initial1---null--->Receive---null--->RecvConf---null--->Wait---null--->ChangeDepart---null--->DepartFailed---null--->End1
-Path 7: Initial1---null--->Receive---null--->RecvConf---null--->DepartFailed---null--->End1
-Path 8: Initial1---null--->Receive---null--->Check---null--->Success---null--->End1
-Path 9: Initial1---null--->Receive---null--->AuxRecvConf---null--->DepartFailed_1---null--->End1
-Path 10: Initial1---null--->Receive---null--->RecvConf---null--->Wait---null--->DepartFailed---null--->End1
-Path 11: Initial1---null--->Receive---null--->AuxRecvConf---null--->Wait_1---null--->ChangeDepart_1---null--->DepartFailed_1---null--->End1
-Path 12: Initial1---null--->Receive---null--->AucCheck_1---null--->Failed---null--->End1
+Path 1: Initial1--->Receive--->RecvConf--->Wait--->ChangeDepart--->ChangeSucc--->Departure--->End1
+Path 2: Initial1--->Receive--->AuxRecvConf--->Wait_1--->ChangeDepart_1--->ChangeSucc_1--->Departure--->End1
+Path 3: Initial1--->Receive--->AucCheck_1--->Success--->End1
+Path 4: Initial1--->Receive--->AuxRecvConf--->Wait_1--->DepartFailed_1--->End1
+Path 5: Initial1--->Receive--->Check--->Failed--->End1
+Path 6: Initial1--->Receive--->RecvConf--->Wait--->ChangeDepart--->DepartFailed--->End1
+Path 7: Initial1--->Receive--->RecvConf--->DepartFailed--->End1
+Path 8: Initial1--->Receive--->Check--->Success--->End1
+Path 9: Initial1--->Receive--->AuxRecvConf--->DepartFailed_1--->End1
+Path 10: Initial1--->Receive--->RecvConf--->Wait--->DepartFailed--->End1
+Path 11: Initial1--->Receive--->AuxRecvConf--->Wait_1--->ChangeDepart_1--->DepartFailed_1--->End1
+Path 12: Initial1--->Receive--->AucCheck_1--->Failed--->End1
 ---------------
