@@ -1,5 +1,5 @@
 2018-03-08 00:15:08--------
-Model: C:\Users\allenwong\Desktop\Working Apps\TCCDepartureToReceive.uml
+Model:Test_Model.xml
 Coverage Criteria: Edge-Pair Coverage
 total paths: 7
 Test Paths: 

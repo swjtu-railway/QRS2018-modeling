@@ -1,5 +1,5 @@
 2018-03-12 18:44:56--------
-Model: C:\Users\allenwong\Desktop\Working Apps\TCCReceiveToDepart_Origin.uml
+Model: Original_Model.xml
 Coverage Criteria: Node Coverage
 total paths: 3
 Test Paths: 

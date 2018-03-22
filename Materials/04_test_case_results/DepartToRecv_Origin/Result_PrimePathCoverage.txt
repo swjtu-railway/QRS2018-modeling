@@ -1,5 +1,5 @@
 2018-03-12 18:30:29--------
-Model: C:\Users\allenwong\Desktop\Working Apps\TCCDepartToReceive_Origin.uml
+Model: Original_Model.xml
 Coverage Criteria: Prime-Path Coverage
 total paths: 2
 Test Paths: 

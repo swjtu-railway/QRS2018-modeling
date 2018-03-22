@@ -1,5 +1,5 @@
 2018-03-07 23:41:54--------
-Model: C:\Users\allenwong\Desktop\Working Apps\TCCDirectionChange.uml
+Model: Test_Model.xml
 Coverage Criteria: Node Coverage
 total paths: 8
 Test Paths: 

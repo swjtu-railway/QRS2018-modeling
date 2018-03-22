@@ -1,5 +1,5 @@
 2018-03-08 00:13:43--------
-Model: C:\Users\allenwong\Desktop\Working Apps\TCCDepartureToReceive.uml
+Model: Test_Model.xml
 Coverage Criteria: Node Coverage
 total paths: 4
 Test Paths: 
