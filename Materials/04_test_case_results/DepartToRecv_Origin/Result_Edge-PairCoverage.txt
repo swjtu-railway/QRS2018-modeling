@@ -3,6 +3,6 @@ Model: Original_Model.xml
 Coverage Criteria: Edge-Pair Coverage
 total paths: 2
 Test Paths: 
-Path 1: Start------>Departure------>DepartConf------>Drive------>ChangeRecv------>DepartOver------>Receive------>End
-Path 2: Start------>Departure------>AuxDepartConf------>Drive------>ChangeRecv------>DepartOver------>Receive------>End
+Path 1: Start--->Departure--->DepartConf--->Drive--->ChangeRecv--->DepartOver--->Receive--->End
+Path 2: Start--->Departure--->AuxDepartConf--->Drive--->ChangeRecv--->DepartOver--->Receive--->End
 ---------------

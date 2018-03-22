@@ -24,9 +24,9 @@ int[0,2] ARouteStatus=0;
 int[0,2] BRouteStatus=0;
 clock AFJClk;
 clock BFJClk;
-//clock DirChangeTime;        //////////////////预期删除
-int TA0 = 5;    //AFJ吸起所需时间
-int TB0 = 5;    //BFJ吸起所需时间
+
+int TA0 = 13;    //Time for AFJ to act
+int TB0 = 13;    //Time for BFJ to act
 int [0,3]    ACmd = 2;
 int [0,3]    BCmd = 2;
 bool    ALockCon;
@@ -35,8 +35,7 @@ bool    ACBI_Lock=false;
 bool    ASec_Clr=true;
 bool    BCBI_Lock=false;
 bool    BSec_Clr=true;
-//bool    A_JQJStatusf=0;
-//bool    B_JQJStatusf=0;
+
 bool    A_JQJStatus=false;
 bool    B_JQJStatus=false;
 bool    AAux=false;
@@ -51,11 +50,6 @@ int [0,2]    B_AllowCBI=2;
 int [0,1]    B_FJDrive=1;
 int [0,1]    A_FJDrive=0;
 int TSys=200;
-
-//chan A_FJDrive;
-//chan B_FJDrive;
-//int [0,1]    BFJUpCon;
-//int [0,1]    AFJUpCon;
 </declaration>
 	<template>
 		<name x="5" y="5">ACBI</name>
@@ -836,9 +830,8 @@ B_ChgDirReq:=0</label>
 // List one or more processes to be composed into a system.
 system ACBI,BCBI,
 ATCC,BTCC,
-//TAFJ,TBFJ,
-AJQJ,BJQJ,//AFJFailedModel,BFJFailedModel,
-M_CTC,M_EVS,//,
+AJQJ,BJQJ,
+M_CTC,M_EVS,
 AFJ,BFJ;
     </system>
 	<queries>
