@@ -10,4 +10,4 @@ P6. A[] not deadlock
 P7. E<> (((ATCC.RecvConf) imply (ACBI.RouteLock)) and ((ATCC.RecvConf) imply (A_JQJStatus==1)))
 P8. A[] (ATCC.ChangeSucc imply AFJClk<=13)
 
-P1-P8 get passed except for P6 hrough validation
+P1-P8 get passed except for P6 through validation
